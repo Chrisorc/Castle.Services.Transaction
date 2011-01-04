@@ -1,0 +1,5 @@
+﻿name: Castle.Services.Transaction
+depends: openwrap anchored content
+build: msbuild; profile=net35; project=src\Castle.Services.Transaction\Castle.Services.Transaction-vs2010.csproj
+depends: castle.core = 2.5
+depends: log4net
